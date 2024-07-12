@@ -1,0 +1,38 @@
+.Movies{
+    background-color: rgb(71, 71, 67);
+    width: 400px;
+    height: 800px;
+    margin: 20px 20px 6px 6px ;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+.Movies__img{
+    border-radius: 12px;
+    width: 400px;
+    height: 550px;
+}
+
+.Movie__contenido{
+    padding: 0px 10px 20px 23px;
+}
+.Movie__decription{
+    padding: 0;
+}
+.Movies__genero{
+    border-radius: 10px;
+    margin-right: 5 px;
+    border:none; 
+}
+.Movie__rating {
+    display: flex;
+    align-items: center; 
+}
+
+.Movie__calificacion {
+    margin-right: 10px;  
+}
+
+.calificacion__estrella {
+    margin-right: 2px; 
+}
