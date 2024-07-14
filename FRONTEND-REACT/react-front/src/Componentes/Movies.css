@@ -1,11 +1,11 @@
 .Movies{
     background-color: rgb(71, 71, 67);
     width: 400px;
-    height: 800px;
     margin: 20px 20px 6px 6px ;
     border-radius: 12px;
     display: inline-block;
     vertical-align: top;
+    
 }
 .Movies__img{
     border-radius: 12px;
@@ -32,7 +32,21 @@
 .Movie__calificacion {
     margin-right: 10px;  
 }
-
+.Movie__borrar{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left:80%;
+}
+.Movie__editar{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left:-28%;
+}
+.Movie__status{
+    white-space: nowrap
+}
 .calificacion__estrella {
     margin-right: 2px; 
 }
